@@ -1,14 +1,5 @@
 # Chapter 2. C Fundamentals
 ## 2.1 Writing a Simple Program
 Here we are presented with the following program:
-```c
-#include <stdio.h>
-
-int main(void)
-{
-  printf("To C, or not to C: that is the question.\n");
-  return 0;
-}
-```
-
+https://github.com/Athansya/CProgrammingAModernApproach/blob/bb561416a519bd73aef04b0368050260e679b4ac/Chapters/2_C_Fundamentals/pun.c#L1-L7
 
