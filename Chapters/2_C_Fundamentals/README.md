@@ -30,6 +30,6 @@ Instructions to be executed when the programs runs. In this example in particula
 > :warning: Every statement must end with a semicolon `;`. 
 
 ## Additional notes.
-- If you have any doubs about a function in particular, I suggest you use `man <function>` for a detailed explanation. Another great tool is `tldr <function>`.
-- Here's an exceptional [C Reference Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/pdf/) that you may reference for any doubts.
+- If you have any doubts about a function in particular, I suggest you use `man <function>` for a detailed explanation. Another great tool is `tldr <function>`.
+- Here's an exceptional [C Reference Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/pdf/) that you may reference at any time.
 
