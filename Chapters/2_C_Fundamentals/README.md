@@ -32,6 +32,6 @@ Instructions to be executed when the programs runs. In this example in particula
 ## Additional notes.
 - If you have any doubts about a function in particular, I suggest you use `man <function>` for a detailed explanation. Another great tool is `tldr <function>`.
 - Here's two exceptional C reference Cheat sheets that you may reference at any time:
-  -[C Reference Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/pdf/)
-  -[Quick and Dirty Guide to C](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
+  - [C Reference Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/pdf/)
+  - [Quick and Dirty Guide to C](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-c.pdf)
 
