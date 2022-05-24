@@ -6,7 +6,7 @@ https://github.com/Athansya/CProgrammingAModernApproach/blob/bb561416a519bd73aef
 
 After compiling and running it with `cc -o pun.exe pun.c && ./pun.exe` it prints `To C, or not to C: that is the question`.
 
-## Structue
+## Structure
 A C program is divided into three main parts:
 ```
 directives
@@ -22,7 +22,9 @@ Commands intended for the preprocessor. In this particular example `#include <st
 ### Functions
 Defined as procedures or subroutines to be followed. They can be already implemented by C as **library functions** or user defined. It is a collection of statements that work together to achieve a result. It may or may not take arguments as input. Some functions `return` a value and others don't.
 
-> :warning: The `main` function is requisite for every C program. It gets called everytime the program is executed.
+> :warning: The `main` function is a requisite for every C program. It gets called everytime the program is executed.
 
 ### Statements
+Instructions to be executed when the programs runs. In this example in particular, we use a `return` statement and a **function call**. Simply put, the **calling** a function means utilizing it as in `printf(...)`. The `return 0` is a way of making sure that our program ends once it finishes the execution of the previous statements.
 
+> :warning: Every statement must end with a semicolon `;`. 
