@@ -28,3 +28,8 @@ Defined as procedures or subroutines to be followed. They can be already impleme
 Instructions to be executed when the programs runs. In this example in particular, we use a `return` statement and a **function call**. Simply put, the **calling** a function means utilizing it as in `printf(...)`. The `return 0` is a way of making sure that our program ends once it finishes the execution of the previous statements.
 
 > :warning: Every statement must end with a semicolon `;`. 
+
+## Additional notes.
+- If you have any doubs about a function in particular, I suggest you use `man <function>` for a detailed explanation. Another great tool is `tldr <function>`.
+- Here's an exceptional [C Reference Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/pdf/) that you may reference for any doubts.
+
