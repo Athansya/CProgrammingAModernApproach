@@ -86,4 +86,13 @@ Hard coding everytime the variables we want to use each time a program is execut
 
 https://github.com/Athansya/CProgrammingAModernApproach/blob/53ae70e2a8514c39d0ffd5c3e9d398b5171c1ae0/Chapters/2_C_Fundamentals/dweight2.c#L8-L31
 
+## Defining Names for Constants
+Sometimes, when dealing with constants in your code, its a great idea to name them. For example, in `dweight.c` and `dweight2.c` we rely on the constant 166 to perform a computation. It may not be clear what does that number mean. That's why we need to name them. To solve this issue, we'll use a feature called *macro definition*. Its a different type of directive and it looks like the following:
+```c
+#define INCHES_PER_POUND 166
+```
+Now, everytime we wan't to use the constant will exchange it with its defined name.
 
+> :pencil2: A macro may contain an expression, but it needs to be enclosed in parentheses.
+
+Let's take a look at a different program that converts Fahrenheit to Celsius:
