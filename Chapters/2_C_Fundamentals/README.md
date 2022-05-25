@@ -83,3 +83,7 @@ https://github.com/Athansya/CProgrammingAModernApproach/blob/4febcd042530b0fdd79
 
 ## Reading Input
 Hard coding everytime the variables we want to use each time a program is executed is painfuly slow. An alternative is to ask the user for an input. To obtain input, we'll use the `scanf` function. It has similar attributes to `printf`. Again, for more information, I suggest you use `man scanf`, everytime you have a doubt don't think twice and look up the function. Now, let's take a look at our improved code:
+
+https://github.com/Athansya/CProgrammingAModernApproach/blob/53ae70e2a8514c39d0ffd5c3e9d398b5171c1ae0/Chapters/2_C_Fundamentals/dweight2.c#L8-L31
+
+
