@@ -67,3 +67,10 @@ volume = height * length * width; // volume is now 960
 ```
 
 > :pencil2: The `*` operator represents multiplication in C.
+
+### Printing the Value of a Variable
+Okay, we did a computation, but how do we display the result? We need the `printf` function we used earlier.
+```c
+printf("The volume is %.2f\n", volume");
+```
+> :pencil2: The `%.2f` just means that we want to print a floating point variable with just 2 decimals. You can check up more options with `man printf`
