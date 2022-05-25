@@ -96,3 +96,6 @@ Now, everytime we wan't to use the constant will exchange it with its defined na
 > :pencil2: A macro may contain an expression, but it needs to be enclosed in parentheses.
 
 Let's take a look at a different program that converts Fahrenheit to Celsius:
+
+https://github.com/Athansya/CProgrammingAModernApproach/blob/f027b83a07e2ca1bf6a8c626bb4c847c2a6acbd9/Chapters/2_C_Fundamentals/celsius.c#L7-L27
+
