@@ -81,4 +81,5 @@ The following example implements what we know until now.
 
 https://github.com/Athansya/CProgrammingAModernApproach/blob/4febcd042530b0fdd7905cd6afa9ddc29c00f097/Chapters/2_C_Fundamentals/dweight.c#L8-L25
 
-
+## Reading Input
+Hard coding everytime the variables we want to use each time a program is executed is painfuly slow. An alternative is to ask the user for an input. To obtain input, we'll use the `scanf` function. It has similar attributes to `printf`. Again, for more information, I suggest you use `man scanf`, everytime you have a doubt don't think twice and look up the function. Now, let's take a look at our improved code:
