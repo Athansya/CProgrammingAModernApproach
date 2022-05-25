@@ -55,6 +55,7 @@ int height = 7, length = 2, width, volume;
 float profit, loss;
 ```
 > :exclamation: Before using a variable we have to declare it.
+
 > :pencil2: A good practice when declaring `float` types is to append the suffix `f`: `float profit = 2.43f`.
 
 Once we you have your variables, you may start using them for computations:
