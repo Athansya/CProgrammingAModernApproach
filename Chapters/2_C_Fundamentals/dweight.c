@@ -17,7 +17,7 @@ int main(void)
   volume = height * length * width;
   weight = (volume + 165) / 166; // We add 165 to help round up the result
 
-  printf("Dimensions: %dx%dx%d\n", lenght, width, height);
+  printf("Dimensions: %dx%dx%d\n", length, width, height);
   printf("Volume (cubic inches): %d\n", volume);
   printf("Dimensional weight (pounds): %d\n", weight);
 

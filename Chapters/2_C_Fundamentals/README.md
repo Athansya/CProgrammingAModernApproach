@@ -48,6 +48,8 @@ To create a variable, you must declare it, which means you have to assign its na
 int height = 7;
 float profit;
 ```
+> :pencil2: Initializing a variable means assigning a value to it. It's a good practice to initialize variables to avoid unpredictable behavior when accessing them.
+
 It seems that `profit` is missing its value, but we may add it later on.
 If many variables share the same type, you can concatenate their declaration in the following manner:
 ```c
@@ -74,3 +76,9 @@ Okay, we did a computation, but how do we display the result? We need the `print
 printf("The volume is %.2f\n", volume");
 ```
 > :pencil2: The `%.2f` just means that we want to print a floating point variable with just 2 decimals. You can check up more options with `man printf`
+
+The following example implements what we know until now.
+
+https://github.com/Athansya/CProgrammingAModernApproach/blob/4febcd042530b0fdd7905cd6afa9ddc29c00f097/Chapters/2_C_Fundamentals/dweight.c#L8-L25
+
+
