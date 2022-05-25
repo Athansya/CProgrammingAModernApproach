@@ -58,12 +58,12 @@ float profit, loss;
 
 > :pencil2: A good practice when declaring `float` types is to append the suffix `f`: `float profit = 2.43f`.
 
-Once we you have your variables, you may start using them for computations:
+Once you have declared your variables, you may start using them for computations:
 ```c
 height = 7;
 length = 12;
 width = 10;
-volume = height * length * width; # volume is now 960
+volume = height * length * width; // volume is now 960
 ```
 
 > :pencil2: The `*` operator represents multiplication in C.
