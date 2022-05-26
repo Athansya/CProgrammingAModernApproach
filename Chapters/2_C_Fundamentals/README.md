@@ -37,7 +37,7 @@ Instructions to be executed when the programs runs. In this example in particula
 
 ---
 ## Variables and Assignment
-Let's talk variables and assignment. Most of the time you will need to store different *types* of data to be able to manipulate them. Storing data means to create a variable. The keyword here is *types*. So, what are types?
+Let's talk variables and assignment. Most of the time you will need to store different types of data to be able to manipulate them. Storing data means to create a variable. The keyword here is **types**. So, what are types?
 
 ### Types
 It just a way of specifying the class of data you are working with. There are different kinds of types, for example, you have numeric types as whole numbers, `int`, or decimal/floating point numbers, `float`. We also have character types, `char`, and other complex data types such as arrays, structs, etc. For now let's stick with the numeric types.
@@ -87,7 +87,7 @@ Hard coding everytime the variables we want to use each time a program is execut
 https://github.com/Athansya/CProgrammingAModernApproach/blob/53ae70e2a8514c39d0ffd5c3e9d398b5171c1ae0/Chapters/2_C_Fundamentals/dweight2.c#L8-L31
 
 ## Defining Names for Constants
-Sometimes, when dealing with constants in your code, its a great idea to name them. For example, in `dweight.c` and `dweight2.c` we rely on the constant 166 to perform a computation. It may not be clear what does that number mean. That's why we need to name them. To solve this issue, we'll use a feature called *macro definition*. Its a different type of directive and it looks like the following:
+Sometimes, when dealing with constants in your code, its a great idea to name them. For example, in `dweight.c` and `dweight2.c` we rely on the constant 166 to perform a computation. It may not be clear what does that number mean. That's why we need to name them. To solve this issue, we'll use a feature called **macro definition**. Its a different type of directive and it looks like the following:
 ```c
 #define INCHES_PER_POUND 166
 ```
@@ -103,8 +103,31 @@ https://github.com/Athansya/CProgrammingAModernApproach/blob/f027b83a07e2ca1bf6a
 Naming a variable needs to follow some rules:
 - Must begin with a letter or underscore
 - Contains letters, digits and underscores
-- It is *case-sensitive* so watch out (e.g. `job != Job != jOb`)
+- It is **case-sensitive** so watch out (e.g. `job != Job != jOb`)
 
-> :exclamation: It's convention to use higher-case letters only in *macros*.
+> :exclamation: It's convention to only use higher-case letters in **macros**.
 
 > :pencil2: There are several ways to write long variable names, be sure to check them out.
+
+### Reserved keywords
+Many programming languages have special words reserved for the language itself and cannot be used as identifiers. C is not the exception, here's the list:
+
+|          |          |          |             |
+|----------|----------|----------|-------------|
+| auto     | enum     | restrict | unsigned    |
+| break    | extern   | return   | void        |
+| case     | float    | short    | volatile    |
+| char     | for      | signed   | while       |
+| const    | goto     | sizeof   | \_Bool      |
+| continue | if       | static   | \_Complex   |
+| default  | inline   | struct   | \_Imaginary |
+| do       | int      | switch   |             |
+| double   | long     | typedef  |             |
+| else     | register | union    |             |
+
+## Final notes
+We finally reached the end of the chapter. Before going over to the exercises, I would like to highlight some good practices:
+1. C doesn't mind how many spaces or tabs you use, but it'll will afect the readability of the code, so have that in mind.
+2. **Indentation** makes easier to spot where does a function begins and ends, plus it makes it easier to deal with nested functions/loops/statements.
+3. Use **Blank lines** to your advantage to divide the different sections in your code.
+4. Don't forget to add **comments** to your code.
