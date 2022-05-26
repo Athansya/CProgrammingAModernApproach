@@ -57,4 +57,5 @@ int main(void)
 
 
 **Aditional Notes**
-I didn't included all the exercises because I don't consider them all helpful.
+
+I didn't included all the exercises because I don't consider them particularly helpful.
