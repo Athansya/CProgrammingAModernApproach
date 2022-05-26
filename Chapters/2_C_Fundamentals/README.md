@@ -99,3 +99,12 @@ Let's take a look at a different program that converts Fahrenheit to Celsius:
 
 https://github.com/Athansya/CProgrammingAModernApproach/blob/f027b83a07e2ca1bf6a8c626bb4c847c2a6acbd9/Chapters/2_C_Fundamentals/celsius.c#L7-L27
 
+## Identifiers
+Naming a variable needs to follow some rules:
+- Must begin with a letter or underscore
+- Contains letters, digits and underscores
+- It is *case-sensitive* so watch out (e.g. `job != Job != jOb`)
+
+> :exclamation: It's convention to use higher-case letters only in *macros*.
+
+> :pencil2: There are several ways to write long variable names, be sure to check them out.
