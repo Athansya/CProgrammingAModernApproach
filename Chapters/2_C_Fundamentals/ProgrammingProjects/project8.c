@@ -8,9 +8,10 @@ int main(void)
   scanf("%f", &loan);
   printf("Enter interest rate: ");
   scanf("%f", &interest);
-  interest = (interest / 100) / 12;
   printf("Enter monthly payment: ");
   scanf("%f", &monthly_payment);
+
+  interest = (interest / 100) / 12; // Find out monthly interest
 
   loan = (loan - monthly_payment) + (loan * interest);
   printf("Balance remaining after first payment: $%.2f\n", loan);
