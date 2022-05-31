@@ -25,6 +25,7 @@ $3x^5 + 2x^4 - 5x^3 - x^2 + 7x - 6$
 6. Modify the previous program so that the polynomial is evaluated using the following formula:
 
 $((((3x +2)x - 5)x - 1)x + 7)x - 6$
+
 Note that the modified program performs fewer multiplications. This technique for evaluating polynomials is known as **Horner's Rule**.
 
 7. Write a program that asks the user to enter a U.S doolar amount and then shows how to pay that amount using the smallest number of $20, $10, $5, and $1 bills:
